@@ -193,4 +193,5 @@ jobs:
 
       - name: Show service
         run: |
-          kubectl get svc session17-python
+          kubectl get service session17-python
+          kubectl get service session17-python -o wide
